@@ -1,0 +1,2 @@
+useDynLib(logitT, .registration = TRUE)
+export(logitTAffy)
