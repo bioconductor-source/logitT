@@ -30,7 +30,7 @@ library(SpikeInSubset)
 data(spikein95)
 logitTex<-logitTAffy(spikein95, group=c("A","A","A","B","B","B"))
 logitTex[1:10]                                                              # extract t-statistics for first ten probe sets
-logitTex[grep("AFFX-BioB-5_at",rownames(logitTex))]                         # extract t-statistics for specific probe set
+logitTex[grep("AFFX-BioB-5_at",names(logitTex))]                         # extract t-statistics for specific probe set
 pvals<-(1-pt(abs(logitTex),df=4))*2                                         # calculate two-sided p-values
 signifgenes<-names(logitTex)[pvals<0.01]                                    # find significant probe sets at 0.01 significance level
 }else{

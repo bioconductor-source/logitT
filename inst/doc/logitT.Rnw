@@ -119,7 +119,7 @@ As described in the introduction, Student's $t$-tests are then performed for eac
 Lemon et al. suggested to use the df of the comparison to obtain p-values for the calculated t-statistics. In this example, $n_{1}=3$ and $n_{2}=3$ and therefore df$=n_{1}+n_{2}-2=4$. Two-sided p-values for each probe set can be obtained using:
 <<>>=
 pvals <- (1-pt(abs(logitTex),df=4))*2              ## calculate p-values
-signifgenes<-names(logitTex)[pvals<0.01]        ## find probe sets with p-values smaller than 0.01
+signifgenes<-names(logitTex)[pvals<0.01]           ## find probe sets with p-values smaller than 0.01
 signifgenes
 @
 
@@ -130,7 +130,7 @@ signifgenes
 \end{description}
 
 \section{Acknowledgements}
-The development of the \textsl{Logit-t} algorithm and its original implementation in C++ is the work of Dr William J. Lemon, Dr Ming You, and Dr Sandya Liyanarachchi. This work was partially supported by National Institute of Diabetes and Digestive and Kidney Diseases R01DK069859.
+We thank Sandy Liyanarachchi for providing the original C++ implementation of the Logit-t algorithm as decribed by Dr William J. Lemon, Dr Ming You, and Dr Sandya Liyanarachchi. This work was partially supported by National Institute of Diabetes and Digestive and Kidney Diseases R01DK069859.
 
 \begin{thebibliography}{}
 \bibitem[Affymetrix, 2008]{Affy08} Affymetrix (2008)  \href{http://www.affymetrix.com}{[http://www.affymetrix.com]}.
