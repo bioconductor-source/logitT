@@ -130,7 +130,7 @@ signifgenes
 \end{description}
 
 \section{Acknowledgements}
-We thank Sandy Liyanarachchi for providing the original C++ implementation of the Logit-t algorithm as decribed by Dr William J. Lemon, Dr Ming You, and Dr Sandya Liyanarachchi. This work was partially supported by National Institute of Diabetes and Digestive and Kidney Diseases R01DK069859.
+We thank Sandy Liyanarachchi for providing the original C++ implementation of the Logit-t algorithm as described by Dr William J. Lemon, Dr Ming You, and Dr Sandya Liyanarachchi. This work was partially supported by National Institute of Diabetes and Digestive and Kidney Diseases R01DK069859.
 
 \begin{thebibliography}{}
 \bibitem[Affymetrix, 2008]{Affy08} Affymetrix (2008)  \href{http://www.affymetrix.com}{[http://www.affymetrix.com]}.
