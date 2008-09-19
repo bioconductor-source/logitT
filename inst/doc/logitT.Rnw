@@ -111,7 +111,7 @@ The object \textsl{groupvector} in the function call would be
 groupvector<-c("A","A","A","B","B","B")
 @
 Note that the group labels can be defined as desired provided only one unique label is used for identifying a specific group.\\               
-After invoking the \textsl{logitTAffy} function, the result is a named vector containing the t-statistics for each probe set for each array. 
+After invoking the \textsl{logitTAffy} function, the result is a named vector containing the t-statistics for each probe set. 
 
 
 \section{Using Logit-t in gene expression analysis}
