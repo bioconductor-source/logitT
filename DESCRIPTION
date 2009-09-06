@@ -1,5 +1,5 @@
 Package: logitT
-Version: 1.3.0
+Version: 1.3.1
 Date: 2008-09-14
 Title: logit-t Package
 Author: Tobias Guennel <tguennel@vcu.edu>
@@ -10,6 +10,6 @@ Description: The logitT library implements the Logit-t algorithm introduced in
    --A high performance test of differential gene expression for oligonucleotide arrays-- 
    by William J Lemon, Sandya Liyanarachchi and Ming You for use with Affymetrix data 
    stored in an AffyBatch object in R.	
-License: GPL version 2 or newer
+License: GPL (>= 2)
 URL: http://www.bioconductor.org
 biocViews: Microarray, DifferentialExpression
