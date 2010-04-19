@@ -134,13 +134,13 @@ We thank Sandy Liyanarachchi for providing the original C++ implementation of th
 
 \begin{thebibliography}{}
 \bibitem[Affymetrix, 2008]{Affy08} Affymetrix (2008)  \href{http://www.affymetrix.com}{[http://www.affymetrix.com]}.
-\bibitem[Gautier {\it et~al}., 2004]{Gautier2004} Gautier,L. et al. (2004) Affy-—analysis of Affymetrix GeneChip data at the probe level, {\it Bioinformatics}, {\bf 20(3)}, 307-315.
+\bibitem[Gautier {\it et~al}., 2004]{Gautier2004} Gautier,L. et al. (2004) Affy--analysis of Affymetrix GeneChip data at the probe level, {\it Bioinformatics}, {\bf 20(3)}, 307-315.
 \bibitem[Gentleman {\it et~al}., 2004]{Gentleman2004} Gentleman,R.C. et al. (2004) A high performance test of differential gene expression for oligonucleotide arrays, {\it Genome Biology},{\bf 4},R:67.
 \bibitem[Hess {\it et~al}., 2007]{Hess2007} Hess,A. et al. (2007) Fisher'scombined p-value for detecting differentially expressed genes using Affymetrix expression arrays, {\it BMC Genomics},{\bf 8}:96.
 \bibitem[Hubbell {\it et~al}., 2002]{Hubbell2002} Hubbell,E. et al. (2002) Analysis of high density expression microarrays with signed-rank call algorithms, {\it Bioinformatics},{\bf 18},1593-1599.
 \bibitem[Irizarry {\it et~al}., 2003]{Irizarry2003} Irizarry,R.A. et al. (2003) Summaries of Affymetrix GeneChip probe level data, {\it Nucleic Acid Res},{\bf 31},E:15.
 \bibitem[Lemon {\it et~al}., 2003]{Lemon2003} Lemon,W.J. et al. (2003) Bioconductor: open software development for computational biology and bioinformatics, {\it Genome Biology},{\bf 5},R:80.
-\bibitem{R2008} R Development Core Team (2008), R: A Language and Environment for Statistical Computing Version 2.7.1. R
+\bibitem[R Development Core Team, 2008]{R2008} R Development Core Team (2008), R: A Language and Environment for Statistical Computing Version 2.7.1. R
 Foundation for Statistical Computing, Vienna, Austria.
 %\bibitem[Tusher {\it et~al}., 2001]{Tusher2001} Tusher,V.G. et al. (2001) Significance analysis of microarrays applied to the ionizing radiation response, {\it PNAS},{\bf 98},5116-5121.
 
