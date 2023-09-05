@@ -1,5 +1,5 @@
 Package: logitT
-Version: 1.59.0
+Version: 1.59.1
 Date: 2008-09-14
 Title: logit-t Package
 Author: Tobias Guennel <tguennel@vcu.edu>
@@ -13,3 +13,4 @@ Description: The logitT library implements the Logit-t algorithm introduced in
 License: GPL (>= 2)
 URL: http://www.bioconductor.org
 biocViews: Microarray, DifferentialExpression
+PackageStatus: Deprecated
